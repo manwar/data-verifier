@@ -39,8 +39,8 @@ use JSON::PP;
     ok(defined($results->is_invalid('age')), 'age is invalid');
     ok(!defined($results->get_value('age')), 'get_value(age) is undefined');
     cmp_ok($results->get_value('age2'), '==', 12, 'get_value(age2) is 12');
-    is($results->get_value('boolean_true'), JSON::PP::true(), 'got boolean true' );
-    is($results->get_value('boolean_false'), JSON::PP::false(), 'got boolean false' );
+    is($results->get_value('boolean_true'), JSON::PP::true(), 'got boolean true');
+    is($results->get_value('boolean_false'), JSON::PP::false(), 'got boolean false');
 }
 
 {
