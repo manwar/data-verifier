@@ -405,6 +405,8 @@ Wallace Reis
 
 Mohammad S Anwar
 
+Hernan Lopes
+
 # AUTHOR
 
 Cory G Watson <gphat@cpan.org>
